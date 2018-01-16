@@ -63,7 +63,6 @@ p {
   .row-c-d .row {
     float: left;
     width: 40%;
-    display: inline-block;
     padding: 0px;
     margin: 0px
   }
@@ -79,7 +78,6 @@ p {
     height: 250px;
   }
   .row-four-columns .two-columns {
-    float: left;
     width: 40%;
     display: inline-block;
   }
