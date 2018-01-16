@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* http://j4n.co/blog/Creating-your-own-css-grid-system */
+.row:before,
+.row:after {
+  content:"";
+  display: table ;
+  clear:both;
+  position: relative;
+}
+[class*='col-'] {
+  float: left;
+  border: .25px #999 solid;
+  background-color: #D8D8D8;
+}
