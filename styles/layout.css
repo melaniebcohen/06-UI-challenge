@@ -1,3 +1,8 @@
+body {
+  min-width: 480px;
+  max-width: 768px;
+  margin: 0 auto;
+}
 .row {
   position: relative;
   background-color: #D8D8D8;
@@ -37,4 +42,31 @@ p {
   font-family: Avenir;
   font-size: 20px;
   margin: 10px 0px 0px 10px;
+}
+@media only screen and (min-width: 768px) {
+  .col-a {
+    height: 100px;
+  }
+  .col-b {
+    height: 600px;
+    width: 100%;
+    position: relative;
+  }
+  .row-b {
+    position: relative;
+    width: 20%;
+    float: left;
+  }
+  .row-c-d .row {
+    width: 39.7%;
+    display: inline-block;
+  }
+  .col-c {
+    float: left;
+    height: 200px;
+  }
+  .col-d {
+    float: right;
+    height: 200px;
+  }
 }

@@ -1,7 +1,3 @@
-body {
-  max-width: 480px;
-  margin: 0 auto;
-}
 /* http://j4n.co/blog/Creating-your-own-css-grid-system */
 .row:before,
 .row:after {
