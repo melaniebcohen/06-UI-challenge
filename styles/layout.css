@@ -1,5 +1,5 @@
 body {
-  min-width: 480px;
+  min-width: 400px;
   max-width: 768px;
   margin: 0 auto;
 }
@@ -50,23 +50,51 @@ p {
   .col-b {
     height: 600px;
     width: 100%;
-    position: relative;
+    position: none;
   }
   .row-b {
-    position: relative;
+    position: none;
     width: 20%;
     float: left;
   }
+  .row-c-d {
+    height: 200px;
+  }
   .row-c-d .row {
-    width: 39.7%;
+    float: left;
+    width: 40%;
     display: inline-block;
+    padding: 0px;
+    margin: 0px
   }
   .col-c {
-    float: left;
     height: 200px;
+    width: 100%;
   }
   .col-d {
-    float: right;
     height: 200px;
+    width: 100%;
+  }
+  .row-four-columns {
+    height: 250px;
+  }
+  .row-four-columns .two-columns {
+    float: left;
+    width: 40%;
+    display: inline-block;
+  }
+  .col-e, .col-f, .col-g, .col-h {
+    height: 250px;
+    width: 49.82%
+  }
+  .footer-row {
+    float: left;
+    height: 150px;
+    width: 80%;
+  }
+  .col-footer {
+    height: 150px;
+    width: 100%;
+    float: right;
   }
 }
